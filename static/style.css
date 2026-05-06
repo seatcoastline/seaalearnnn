@@ -1,0 +1,79 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f6f8;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #2d6cdf;
+    padding: 15px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* CONTAINER */
+.container {
+    padding: 20px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* PRODUCTS */
+.product-grid {
+    display: flex;
+    gap: 15px;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+/* FORM */
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.form-box input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #2d6cdf;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
