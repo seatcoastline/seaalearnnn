@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Terima Kasih!</h2>
+
+<div class="card">
+    <p><b>Nama:</b> {{ name }}</p>
+    <p><b>Email:</b> {{ email }}</p>
+</div>
+
+{% endblock %}
